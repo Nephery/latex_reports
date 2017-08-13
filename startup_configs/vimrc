@@ -1,0 +1,12 @@
+map <ESC>[5D <C-Left>
+map <ESC>[5C <C-Right>
+map! <ESC>[5D <C-Left>
+map! <ESC>[5C <C-Right>
+
+set hlsearch
+set number
+
+call plug#begin('~/.vim/plugged')
+Plug 'vim-syntastic/syntastic', { 'tag': '3.8.0' }
+Plug 'tpope/vim-surround', { 'tag': 'v2.1' }
+call plug#end()

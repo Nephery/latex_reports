@@ -1,0 +1,2 @@
+export PS1="\[\e[01m\][\t]\[\e[00m\] \[\e[92m\]\u\[\e[00m\]@\[\e[35m\]\H\[\e[00m\]:\[\e[93m\]\w \[\e[01;97m\]$\[\e[00m\] "
+export GREP_OPTIONS="$GREP_OPTIONS --color=auto"
